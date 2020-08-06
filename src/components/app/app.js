@@ -4,6 +4,8 @@ import Header from '../header';
 import RandomPlanet from '../random-planet';
 import ItemList from '../item-list';
 import PersonDetails from '../person-details';
+import Spinner from '../spinner'
+
 
 import './app.css';
 
@@ -12,7 +14,7 @@ const App = () => {
     <div>
       <Header />
       <RandomPlanet />
-
+      <Spinner />
       <div className="row mb2">
         <div className="col-md-6">
           <ItemList />
